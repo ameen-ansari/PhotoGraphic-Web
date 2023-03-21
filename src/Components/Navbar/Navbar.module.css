@@ -35,6 +35,9 @@
   line-height: 18px;
   color: #eeeeee;
 }
+.parent > div:nth-child(2) p{
+  cursor: pointer;
+} 
 .parent > div:nth-child(3) {
   flex: 1.5;
   display: flex;
@@ -52,6 +55,7 @@
   border: 0;
   background: #eeeeee;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 /* Dropdown */

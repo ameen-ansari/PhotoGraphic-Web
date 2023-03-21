@@ -6,7 +6,7 @@
   z-index: 5;
 }
 
-.parent img {
+.img {
   width: 90% !important;
   height: 100px;
   display: flex !important;
@@ -21,4 +21,26 @@
 }
 .card span {
   font-family: "Poppins";
+}
+
+.arrows{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2rem;
+  gap :2rem;
+}
+.arrows img {
+  cursor: pointer;
+}
+
+.arrows > img:nth-child(2){
+  transform: rotate(180deg);
+}
+
+@media (max-width:900px) {
+  .arrows{
+    justify-content: center;
+  }
 }
