@@ -3,8 +3,8 @@
   position: relative;
   display: flex;
   height: 90vh;
-  padding: 5rem 0px;
-  background-image: url("../../Images/Rectangle 2.svg");
+  padding: 10rem 0px 5rem 0px;
+  background-image: url("../../images/Rectangle 2.svg");
   background-size: cover;
   margin-top: 5rem;
 }
@@ -190,7 +190,7 @@
 
 @media (max-width: 900px) {
   .parent {
-    background-image: url("../../Images/Rectangle 2.svg");
+    background-image: url("../../images/Rectangle 2.svg");
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -201,7 +201,7 @@
   }
   .parent > div:nth-child(2) {
     flex-direction: column;
-    background-image: url("../../Images/Rectangle 2.svg");
+    background-image: url("../../images/Rectangle 2.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0%;

@@ -1,6 +1,6 @@
 import style from './App.module.css'
-import Navbar from './Components/Navbar/Navbar'
-import Header from './Components/Header/Header'
+import Navbar from './components/navbar/Navbar'
+import Header from './components/header/Header'
 
 function App() {
   return (

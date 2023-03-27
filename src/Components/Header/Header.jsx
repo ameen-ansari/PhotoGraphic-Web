@@ -1,9 +1,9 @@
 import style from "./Header.module.css";
-import bgimg from "../../Images/Rectangle 2.svg";
-import circleType from "../../Images/Ellipse 1.svg";
-import line from "../../Images/Line 1.svg";
-import SimpleSlider from "../Slider/Slider";
-import img from '../../Images/Vector (5).svg'
+import bgimg from "../../images/Rectangle 2.svg";
+import circleType from "../../images/Ellipse 1.svg";
+import line from "../../images/Line 1.svg";
+import SimpleSlider from "../slider/Slider";
+import img from '../../images/Vector (5).svg'
 
 function Header() {
   return (
@@ -11,12 +11,12 @@ function Header() {
       <img className={style.bg} src={bgimg} alt="" />
       <div>
         <div>
-          <img src={circleType} alt="" />
+          <img src={circleType} alt="circle" />
           <p>Pro</p>
           <p>Photograper</p>
         </div>
         <div>
-          <img src={line} alt="" />
+          <img src={line} alt="line" />
           <p>Let’s take your photographs to next level</p>
         </div>
       </div>
@@ -40,8 +40,8 @@ function Header() {
             <SimpleSlider />
           </div>
           <div>
-            <img src={img} alt="" />
-            <img src={img} alt="" />
+            <img src={img} alt="arrow" />
+            <img src={img} alt="arrow" />
           </div>
         </div>
       </div>

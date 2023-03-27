@@ -1,5 +1,5 @@
 import style from "./Navbar.module.css";
-import Union from "../../Images/Union.svg";
+import Union from "../../images/Union.svg";
 
 function Navbar() {
   return (
@@ -32,7 +32,7 @@ function Navbar() {
           </ul>
         </div>
         <button>Schedule a call</button>
-        <img src={Union} alt="dkh" />
+        <img src={Union} alt="hanBurger" />
       </div>
     </div>
   );

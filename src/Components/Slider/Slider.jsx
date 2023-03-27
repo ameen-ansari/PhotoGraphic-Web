@@ -3,10 +3,10 @@ import Slider from "react-slick";
 import style from "./Slider.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img1 from '../../Images/Rectangle 4.svg'
-import img2 from '../../Images/Rectangle 5.svg'
-import img3 from '../../Images/Rectangle 6.svg'
-import img from '../../Images/Vector (5).svg'
+import img1 from '../../images/Rectangle 4.svg'
+import img2 from '../../images/Rectangle 5.svg'
+import img3 from '../../images/Rectangle 6.svg'
+import img from '../../images/Vector (5).svg'
 
 
 export default class SimpleSlider extends Component {
@@ -69,8 +69,8 @@ export default class SimpleSlider extends Component {
           })}
         </Slider>
         <div className={style.arrows}>
-          <img onClick={this.previous} src={img} alt="" />
-          <img onClick={this.next} src={img} alt="" />
+          <img onClick={this.previous} src={img} alt="arrow" />
+          <img onClick={this.next} src={img} alt="arrow" />
         </div>
       </div>
     );
